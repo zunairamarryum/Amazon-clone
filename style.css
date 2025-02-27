@@ -5,13 +5,14 @@
 }
 
 .navbar {
-    height: 60;
+    height: 60px;
     background-color: #0f1111;
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
 .nav-logo {
     height: 50px;
     width: 100px;
@@ -19,10 +20,10 @@
 
 .logo
 {
-    background-image: url(Amz-logo.png);
+    background-image: url(Amz_logo.png);
     background-size: cover;
     height: 50px;
-    width: 100px;
+    width: 100%;
 }
 
 .border {
