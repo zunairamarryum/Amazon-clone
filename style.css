@@ -54,7 +54,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: pink;
-    width: 650px;
+    width: 620px;
     height: 35px;
     border-radius: 4px;
 }
@@ -74,7 +74,7 @@
 }
  
 .search-icon {
-    width: 45px;
+    width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@
 }
 
 .nav-search:hover {
-    border: 2px solid #febd68;
+    border: 2px solid orange;
 }
 
 
