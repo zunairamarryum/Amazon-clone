@@ -7,3 +7,15 @@
     height: 60;
     background-color: #0f1111;
 }
+.nav-logo
+{
+    height: 50px;
+    width: 100;
+}
+.logo
+{
+    background-image: url(Amz-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
