@@ -3,15 +3,17 @@
     font-family: arial;
     border: border-box;
 }
+
 .navbar {
     height: 60;
     background-color: #0f1111;
+    color: white;
 }
-.nav-logo
-{
+.nav-logo {
     height: 50px;
-    width: 100;
+    width: 100px;
 }
+
 .logo
 {
     background-image: url(Amz-logo.png);
