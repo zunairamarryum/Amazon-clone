@@ -55,7 +55,7 @@
     justify-content: space-evenly;
     background-color: pink;
     width: 650px;
-    height: 35px;
+    height: 38px;
     border-radius: 4px;
 }
 
@@ -107,6 +107,7 @@ span {
 .nav-second {
     font-size: 0.85rem;
     font-weight: 700;
+    display: inline;
 }
 
 /**box6 **/
@@ -127,12 +128,26 @@ span {
     align-items: center;
  }
 
+ .panel-all {
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 0.85rem;
+ }
+
  .panel-ops p {
     display: inline;
     margin-left: 15px;
+    font-size: 14px;
  }
 
  .panel-ops {
     width: 70%;
     font-size: 0.85rem;
  }
+
+ /**header-slider**/
+ .header-slider {
+    background-image: url("clone-img/header1.jpg");
+    background-size: cover;
+    height: 500px;
+}
