@@ -131,10 +131,37 @@ span {
  }
 
  .panel-all {
-    margin-left: 15px;
+    margin-left: 0;
     font-weight: 600;
     font-size: 0.85rem;
  }
+
+ .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 300px;
+    z-index: 1000;
+    margin: 0;
+    color: black;
+}
+.panel-all:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dropdown-menu li {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
 
  .panel-ops p {
     display: inline;
@@ -160,7 +187,7 @@ span {
 .image-item {
     min-width: 100%;
    /**transform: translateX(-300%);**/
-   transition: transform 0.5s;
+    transition: transform 0.5s ease-in-out;
 }
 
 .image-item img {
