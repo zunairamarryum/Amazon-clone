@@ -250,7 +250,7 @@ span {
     height: 100px;
     overflow: hidden;
     justify-content: space-between;
-
+    display: grid;
 
 }
 .grid-item img {
@@ -273,7 +273,6 @@ span {
     font-size: 12px;
     margin: 10px 0;
     align-items: center;
-    
 }
 
 .box-content p {
