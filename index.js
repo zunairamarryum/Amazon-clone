@@ -24,3 +24,15 @@ slideBtnright.addEventListener("click",()=>{
         element.style.transform = `translateX(${startslider}%)`;
     })
 })
+
+const leftBtn = document.querySelector('.slide-btn.left');
+const rightBtn = document.querySelector('.slide-btn.right');
+const slider = document.querySelector('.products');
+
+leftBtn.addEventListener('click', () => {
+  slider.scrollBy({ left: -300, behavior: 'smooth' });
+});
+
+rightBtn.addEventListener('click', () => {
+  slider.scrollBy({ left: 300, behavior: 'smooth' });
+});
